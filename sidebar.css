@@ -38,33 +38,32 @@
     vertical-align: top!important;
   }
   .float-le { 
-    top: 260px;
+    top: 160px;
   }
   
   .float-ig {
-    top: 315px;
+    top: 215px;
   }
   
   .float-tw {
-    top: 370px;
+    top: 270px;
   }
   
   .float-yt {
-    top: 425px;
+    top: 325px;
   }
   
   .float-lk {
-    top: 480px;
+    top: 380px;
   }
   
   .float-gh {
-    top: 535px;
+    top: 435px;
   }
   
   .float-ma{
-    top: 590px;
+    top: 490px;
   }
-  
   /* Floating Social Media Bar Style Ends Here */
   /*colors and styles*/
    #github{
