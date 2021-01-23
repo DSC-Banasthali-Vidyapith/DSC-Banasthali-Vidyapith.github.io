@@ -24,7 +24,7 @@ const data = [
     id:0,
     pic: "images/LinkedIn.jpg",
     time:"Saturday, 30 January 6:00 pm",
-    title:"LinkedIn Workshop",
+    title:"LinkedIn Hacks",
     
     link:"https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-dsc-drum-rolls-orientation-session/#/"
 
