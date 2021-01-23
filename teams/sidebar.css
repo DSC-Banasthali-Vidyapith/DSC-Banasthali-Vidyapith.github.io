@@ -1,0 +1,102 @@
+/*sidebar starts*/
+.fl-fl {
+    text-align: right;
+    background: #000000;
+    box-shadow: 1px 1px #888888;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 4px;
+    width: 200px;
+    position: fixed;
+    left: -160px;
+    z-index: 1000;
+    border-radius:0px 10px 10px 0px;
+    font: normal normal 10px Arial;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+  }
+  
+  .fa {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 0;
+    width: 40px;
+    margin-right: 6px;
+  }
+  
+  .fl-fl:hover {
+    left: 0;
+  }
+  
+  .fl-fl a {
+    color: #fff !important;
+    text-decoration: none;
+    text-align: center;
+    line-height: 43px!important;
+    vertical-align: top!important;
+  }
+  .float-le { 
+    top: 160px;
+  }
+  
+  .float-ig {
+    top: 215px;
+  }
+  
+  .float-tw {
+    top: 270px;
+  }
+  
+  .float-yt {
+    top: 325px;
+  }
+  
+  .float-lk {
+    top: 380px;
+  }
+  
+  .float-gh {
+    top: 435px;
+  }
+  
+  .float-ma{
+    top: 490px;
+  }
+  
+  /* Floating Social Media Bar Style Ends Here */
+  /*colors and styles*/
+   #github{
+     background-color:#211F1F;
+   }
+   #twitter{
+     background-color:  #00acee;
+     box-shadow: 1px 1px #009AD5;
+   }
+   #mail{
+    background-color: #DB4437;
+    box-shadow: 1px 1px #D33426;
+   }
+  
+   #events{
+    background-color: #FFA240;
+    box-shadow: 1px 1px #FF9627;
+   }
+   
+   #instagram{
+     background: linear-gradient(45deg,#405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D);
+     box-shadow: 1px 1px #D81F5E;
+     
+   }
+   #linkedin{
+    background-color: #0e76a8;
+    box-shadow: 1px 1px #0C6590;
+   }
+  
+   #youtube{
+     background-color:#FF0000;
+     box-shadow: 1px 1px #FF1A1A;
+   }
+   /*sidebar ends*/

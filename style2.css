@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.last-title{
+    font-family: 'Open Sans', sans-serif;
+    color: #616161;
+    font-weight:bold;
+   font-size: 2rem;
+
+
+}
+@media(max-width:786px){
+    
+.last-title{
+    margin-top: 10%;
+    font-weight:bold;
+   font-size: 1.6rem;
+  
+}
+}
+

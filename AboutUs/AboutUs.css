@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.con{
+  margin-left: 10px;;
+}
+.fl-fl {
+  text-align: right;
+  background: #000000;
+  box-shadow: 1px 1px #888888;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 4px;
+  width: 200px;
+  position: fixed;
+  left: -160px;
+  z-index: 1000;
+  border-radius:0px 10px 10px 0px;
+  font: normal normal 10px Arial;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.fa {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-right: 6px;
+
+}
+
+.fl-fl:hover {
+  left: 0;
+}
+
+.fl-fl a {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px!important;
+  vertical-align: top!important;
+}
+.float-le { 
+  top: 160px;
+}
+
+.float-ig {
+  top: 215px;
+}
+
+.float-tw {
+  top: 270px;
+}
+
+.float-yt {
+  top: 325px;
+}
+
+.float-lk {
+  top: 380px;
+}
+
+.float-gh {
+  top: 435px;
+}
+
+.float-ma{
+  top: 490px;
+}
+
+/* Floating Social Media Bar Style Ends Here */
+/*colors and styles*/
+ #github{
+   background-color:#211F1F;
+ }
+ #twitter{
+   background-color:  #00acee;
+   box-shadow: 1px 1px #009AD5;
+ }
+ #mail{
+  background-color: #DB4437;
+  box-shadow: 1px 1px #D33426;
+ }
+
+ #events{
+  background-color: #FFA240;
+  box-shadow: 1px 1px #FF9627;
+ }
+ 
+ #instagram{
+   background: linear-gradient(45deg,#405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D);
+   box-shadow: 1px 1px #D81F5E;
+   
+ }
+ #linkedin{
+  background-color: #0e76a8;
+  box-shadow: 1px 1px #0C6590;
+ }
+
+ #youtube{
+   background-color:#FF0000;
+   box-shadow: 1px 1px #FF1A1A;
+ }
+.h{
+  max-width: 80%;
+  height: auto;
+}
+.heading {
+ 
+ font-family: 'Open Sans', sans-serif;
+ color: #3C4858;
+ font-weight: 700;
+ font-size: 2.25rem;
+ line-height: 1.5em;
+ margin-left:50px;
+}
+
+.subheading{
+  color: rgb(64, 64, 64);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.55em;
+  margin-bottom: 15px;
+   text-align: justify;
+  text-justify: inter-word;
+  margin-left:50px;
+}
+
+.bar{
+  height: 4px;
+  width: 85px;
+  background: #1f45fc;
+  margin-top: 3px;
+  margin-left: 139px;
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.bar::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 5px;
+  background: #fff;
+  animation: animate 5s linear infinite; 
+}
+
+
+
+@keyframes animate { 
+  0% { 
+      left: 0; 
+  } 
+
+  50% { 
+      left: 100%; 
+  } 
+
+  0% { 
+      left: 0; 
+  } 
+}
+
+p {color: rgb(0, 0, 0);}
+
+h2 {
+  font-size: 2em;
+  color: #0f0f0f;  
+  font-weight:bold;
+   
+
+}
+.centered-fluid {
+  margin-left: 45px;
+    /* margin: 0 auto;
+    padding: 0 1em; */
+}
+.container-fluid{
+  margin-left: 45px;
+  margin-top:-120px;
+}
+.con .container-fluid img {
+position:relative;
+  width: 55%;
+  height: 55%;
+left:900px;
+top: 200px;
+}
+@media screen and (min-width: 52em) {
+    .centered {
+        max-width: 52em;
+    }
+}
+
+/*--------------------------------------------------------------
+Header styles minus menu
+--------------------------------------------------------------*/
+
+.masthead {
+    background: #e74c3c;
+  	box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+.site-title {
+    margin: 0 0 1em;
+    padding: 1em 0;
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+}
+
+@media screen and (min-width: 44.44em) {
+    .site-title {
+        font-size: 2em;
+    }
+}
+    
+@media screen and (min-width: 50em) {
+    .site-title {
+        font-size: 2.5em;
+    }
+}
+
+.site-title a {
+    color: hsl(5, 45%, 95%);
+    text-decoration: none;
+}
+
+.site-title a:hover {
+    text-decoration: underline;
+}
+
+/* Card Based Layout - Base styles */
+body {
+  background: #ecf0f1;
+  line-height: 1.4;
+}
+
+.site-title {
+	color: white;
+}
+
+.card {
+	background: white;
+	margin-bottom: 2em;	
+}
+
+.card a {
+	color: black;
+	text-decoration: none;
+}
+
+ .card a:hover {
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);   
+} 
+
+.card-content {
+	padding: 1.4em;
+}
+
+.card-content h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: normal;
+}
+
+.card-content p {
+	font-size: 95%;
+	text-align: justify;
+  text-justify: inter-word;
+}
+@media(max-width: 1124px){
+  nav ul li{
+    margin-top: 2rem !important;
+    font-size: 1rem !important;
+  }
+  nav ul li a{
+    font-size: 1rem !important;
+  }
+}
+
+
+/* Flexbox styles */
+@media screen and (min-width: 40em) {  
+  .cards {
+    margin-top: -1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin-bottom: 1em;
+    display: flex;
+    flex: 0 1 calc(50% - 0.5em);
+    /* width: calc(50% - 1em); */
+  }
+} /* mq 40em*/
+
+@media screen and (min-width: 60em) {
+  .cards {
+    margin-top: inherit;
+  }
+  
+  .card {
+    margin-bottom: 2em;
+    display: flex;
+    flex: 0 1 calc(33% - 0.5em);
+    /* width: calc(33% - 1em); */
+  }
+} /* mq 60em*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+h1 {
+  text-align: center;
+  margin:50px 0 0 0;
+  font-size: 2.5rem;
+}
+
+.landing {
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-left: 45px;
+}
+
+.landing img {
+  width: 30%;
+  height: 30%;
+  flex: 1 1 30%;
+}
+
+.accordion {
+  flex: 1 1 50%;
+  padding: 5%;
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.accordion-item {
+  background-color: #fff;
+  color: #111;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+
+.accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.accordion-item-header::after {
+  content: "\002B";
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+
+.accordion-item-header.active::after {
+  content: "\2212";
+}
+
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+.card {
+	background: white;
+	margin-bottom: 2em;	
+}
+
+.card-red a {
+	color: black;
+	text-decoration: none;
+}
+
+ .card-red a:hover {
+    box-shadow: 3px 3px 8px red;   
+} 
+
+.card-blue a {
+	color: black;
+	text-decoration: none;
+}
+
+ .card-blue a:hover {
+    box-shadow: 3px 3px 8px blue;   
+} 
+
+.card-green a {
+	color: black;
+	text-decoration: none;
+}
+
+ .card-green a:hover {
+    box-shadow: 3px 3px 8px green;   
+}

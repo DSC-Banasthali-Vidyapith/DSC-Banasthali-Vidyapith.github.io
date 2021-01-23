@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
+
+body{
+    background-image: url(bg.gif);
+    font-family: 'Open Sans', sans-serif;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.h{
+    max-width: 80%;
+    height: auto;
+}
+.heading {
+   margin-bottom: 0.7rem;
+   font-family: 'Open Sans', sans-serif;
+   color: #3C4858;
+   font-weight: 700;
+   font-size: 2.25rem;
+   line-height: 1.5em;
+}
+
+.subheading{
+    color: rgb(64, 64, 64);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.55em;
+    margin-top: 1rem;
+}
+
+.bar{
+    height: 5px;
+    width: 90px;
+    background:#b6cffc;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 30px;
+}
+
+.bar::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -2.7px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background:#4284f7;
+    animation: animate 3s linear infinite; 
+}
+
+
+
+@keyframes animate { 
+    0% { 
+        left: 0; 
+    } 
+
+    100% { 
+        left: 100%; 
+    } 
+}
+
+.btn{
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+    margin-top: 1rem;
+    padding: 15px 40px;
+}
+ 
+.btn:hover {
+        top: -10px;
+        box-shadow: 1px 1px 15px #a5a5a5;
+}
+
+.fas {
+    margin-left: 10px;
+}
+
+
+@-webkit-keyframes fadeInLeft {
+    from {
+        opacity:0;
+        -webkit-transform: translatex(-10px);
+        -moz-transform: translatex(-10px);
+        -o-transform: translatex(-10px);
+        transform: translatex(-10px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+@-moz-keyframes fadeInLeft {
+    from {
+        opacity:0;
+        -webkit-transform: translatex(-10px);
+        -moz-transform: translatex(-10px);
+        -o-transform: translatex(-10px);
+        transform: translatex(-10px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+@keyframes fadeInLeft {
+    from {
+        opacity:0;
+        -webkit-transform: translatex(-100px);
+        -moz-transform: translatex(-100px);
+        -o-transform: translatex(-100px);
+        transform: translatex(-100px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatex(0);
+        -moz-transform: translatex(0);
+        -o-transform: translatex(0);
+        transform: translatex(0);
+    }
+}
+.in-left {
+    -webkit-animation-name: fadeInLeft;
+    -moz-animation-name: fadeInLeft;
+    -o-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.7s;
+    -moz-animation-duration: 0.7s;
+    -o-animation-duration:0.7s;
+    animation-duration: 0.7s;
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    -o-animation-duration:0.7s;
+    animation-delay: 0.7s;
+}
+
+
+@media(max-width: 900px)
+{
+  .outer-section{
+    margin-left: 14%;
+}
+  }
+  

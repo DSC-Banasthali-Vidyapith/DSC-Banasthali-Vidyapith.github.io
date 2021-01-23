@@ -1,0 +1,564 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html, body {width: auto!important; overflow-x: hidden!important} 
+
+.background {
+  
+  min-height: 90vh;
+  padding-bottom: 20vh;
+  z-index: 0;
+  
+}
+
+
+.lead-con {
+display: block;
+  padding-top: 2%;
+  padding-bottom: 5px;
+  position: relative;  
+}
+
+.head-text {
+    
+    position: relative;
+    
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: bold;
+    
+}
+
+.screen {
+  position: relative;
+  background: #FFFAFA;
+  border-radius: 15px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.25), 0 2px 2px rgba(0,0,0,0.20), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.10), 0 16px 16px rgba(0,0,0,0.05);
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  
+}
+
+.cont {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+  letter-spacing: 1.4px;
+}
+
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+
+  width: 100%;
+ 
+  padding-right: 15px;
+  padding-left: 15px;
+  
+}
+/*grey header mac*/
+.screen-header {
+  display: flex;
+  padding: 10px 20px;
+  background: #4d4d4f;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.screen-header-left {
+  margin-right: auto;
+}
+
+.screen-header-button.maximize {
+  background: #e8e925;
+}
+
+.screen-header-button.minimize {
+  background: #74c54f;
+}
+.screen-header-button.close_btn {
+  background: #ff1427;
+}
+.screen-header-button {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 3px;
+  border-radius: 8px;
+  background: white;
+}
+
+/*3 right dots*/
+
+.screen-header-right {
+  display: flex;
+}
+
+.screen-header-ellipsis {
+  width: 3px;
+  height: 3px;
+  margin-left: 2px;
+  border-radius: 8px;
+  background: #999;
+}
+
+.screen-body {
+  display: block;
+
+}
+.screen-body-item {
+  flex: 1;
+  padding: 25px;
+  font-family: 'Montserrat', sans-serif ;
+}
+
+.app-form-group {
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid black;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+  transition: border-color .2s;
+}
+
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif ;
+  font-weight: bold;
+}
+
+.app-form-button {
+  background: none;
+  border: none;
+  color: #4285F4;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Montserrat', sans-serif ;
+  font-weight: bold;
+}
+
+/*typewriter effect*/
+.css-typing p {
+border-right: .15em solid orange;
+font-family: 'Montserrat',sans-serif;
+font-size: 14px;
+white-space: nowrap;
+overflow: hidden;
+font-weight: bold;
+margin-right:0%;
+
+
+}
+
+
+.css-typing p:nth-child(1) {
+width: 10em;
+-webkit-animation: type 2s steps(40, end);
+animation: type 2s steps(40, end);
+-webkit-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+width: 30em;
+opacity: 0;
+-webkit-animation: type2 3s steps(40, end);
+animation: type2 2s steps(40, end);
+-webkit-animation-delay: 2s;
+animation-delay: 2s;
+-webkit-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 25em;
+  opacity: 0;
+  -webkit-animation: type3 3s steps(40, end);
+  animation: type3 2s steps(40, end);
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.css-typing p:nth-child(4) {
+  width: 19em;
+  opacity: 0;
+  -webkit-animation: type4 2s steps(40, end);
+  animation: type4 2s steps(40, end);
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+.css-typing p:nth-child(5) {
+  width: 20em;
+  opacity: 0;
+  -webkit-animation: type5 2s steps(40, end);
+  animation: type5 2s steps(40, end);
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+0% {
+  width: 0;
+}
+99.9% {
+  border-right: .15em solid orange;
+}
+100% {
+  border: none;
+}
+}
+
+@-webkit-keyframes type {
+0% {
+  width: 0;
+}
+99.9% {
+  border-right: .15em solid orange;
+}
+100% {
+  border: none;
+}
+}
+
+@keyframes type2 {
+0% {
+  width: 0;
+}
+1% {
+  opacity: 1;
+}
+99.9% {
+  border-right: .15em solid orange;
+}
+100% {
+  opacity: 1;
+  border: none;
+}
+}
+
+@-webkit-keyframes type2 {
+0% {
+  width: 0;
+}
+1% {
+  opacity: 1;
+}
+99.9% {
+  border-right: .15em solid orange;
+}
+100% {
+  opacity: 1;
+  border: none;
+}
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type5 {
+0% {
+  width: 0;
+}
+1% {
+  opacity: 1;
+}
+100% {
+  opacity: 1;
+}
+}
+
+@-webkit-keyframes type5 {
+0% {
+  width: 0;
+}
+1% {
+  opacity: 1;
+}
+100% {
+  opacity: 1;
+}
+}
+
+@keyframes blink {
+50% {
+  border-color: transparent;
+}
+}
+@-webkit-keyframes blink {
+50% {
+  border-color: tranparent;
+}
+}
+.block1{
+width: fit-content;
+height: fit-content;
+
+padding-left: 4rem;
+}
+.block1 h4{
+font-family: 'Roboto',sans-serif;
+}
+
+.gif{
+  margin-left:120px;
+  margin-top:50px;
+  
+}
+/*css typing l media*/
+
+
+
+/*background */
+/*floatbar*/
+.fl-fl {
+text-align: right;
+background: #000000;
+box-shadow: 1px 1px #888888;
+text-transform: uppercase;
+letter-spacing: 3px;
+padding: 4px;
+width: 200px;
+position: fixed;
+left: -160px;
+z-index: 1000;
+border-radius:0px 10px 10px 0px;
+font: normal normal 10px Arial;
+-webkit-transition: all .25s ease;
+-moz-transition: all .25s ease;
+-ms-transition: all .25s ease;
+-o-transition: all .25s ease;
+transition: all .25s ease;
+}
+
+main .fa {
+font-size: 20px;
+color: #fff;
+padding: 10px 0;
+width: 40px;
+margin-right: 6px;
+}
+
+.fl-fl:hover {
+left: 0;
+}
+
+.fl-fl a {
+color: #fff !important;
+text-decoration: none;
+text-align: center;
+line-height: 43px!important;
+vertical-align: top!important;
+}
+
+.float-le { 
+top: 160px;
+}
+
+.float-ig {
+top: 215px;
+}
+
+.float-tw {
+top: 270px;
+}
+
+.float-yt {
+top: 325px;
+}
+
+.float-lk {
+top: 380px;
+}
+
+.float-gh {
+top: 435px;
+}
+
+.float-ma{
+top: 490px;
+}
+/* Floating Social Media Bar Style Ends Here */
+#github{
+ background-color:#211F1F;
+}
+#twitter{
+ background-color:  #00acee;
+ box-shadow: 1px 1px #009AD5;
+}
+#mail{
+background-color: #DB4437;
+box-shadow: 1px 1px #D33426;
+}
+
+#events{
+background-color: #FFA240;
+box-shadow: 1px 1px #FF9627;
+}
+
+#instagram{
+ background: linear-gradient(45deg,#405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D);
+ box-shadow: 1px 1px #D81F5E;
+ 
+}
+#linkedin{
+background-color: #0e76a8;
+box-shadow: 1px 1px #0C6590;
+}
+
+#youtube{
+ background-color:#FF0000;
+ box-shadow: 1px 1px #FF1A1A;
+}
+/*sidebar*/
+/*title bottom bar*/
+.bar{
+height: 5px;
+width: 220px;
+background:#b6cffc;
+
+margin-bottom: 10px;
+position: relative;
+border-radius: 30px;
+}
+
+.bar::before {
+content: "";
+position: absolute;
+left: 0;
+top: -2.7px;
+height: 10px;
+width: 10px;
+border-radius: 50%;
+background:#4284f7;
+animation: animate 3s linear infinite; 
+}
+
+
+
+@keyframes animate { 
+0% { 
+    left: 0; 
+} 
+
+100% { 
+    left: 100%; 
+} 
+}
+@media(max-width:1124px){
+  nav ul li{
+    margin-top: 2rem !important;
+  }
+  nav ul li a{
+    font-size: 1.5rem !important;
+  }
+}
+/*navbar*/
+@media(max-width:900px){
+.css-typing p{
+  font-size: 80%;
+}
+.gif{
+  margin-left:1.5rem;
+}
+.screen{
+  margin-left: 2rem;
+}
+.block1{
+  padding-left:4rem;
+  padding-right:4rem;
+}
+.screen-body-item {
+  
+  padding: 10px;
+  
+}
+}
