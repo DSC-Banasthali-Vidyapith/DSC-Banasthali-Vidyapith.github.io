@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url(bg.gif);
+  /* background-position: center center; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.h {
+  max-width: 80%;
+  height: auto;
+  border-radius: 5%;
+  margin-top: 30px;
+}
+
+.heading {
+  margin-bottom: 0.7rem;
+  margin-top: 3rem;
+  font-family: "Open Sans", sans-serif;
+  color: #3c4858;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5em;
+}
+
+.subheading {
+  color: rgb(90, 87, 87);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.55em;
+  margin-top: 1rem;
+  padding-bottom: 15px;
+}
+
+.bar {
+  height: 5px;
+  width: 90px;
+  background: #b6cffc;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+.bar::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -2.7px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #4284f7;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+.btn {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  margin-top: 1rem;
+  padding: 15px 40px;
+  color: white;
+}
+
+.btn:hover {
+  top: -10px;
+  box-shadow: 1px 1px 15px #a5a5a5;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translatey(-10px);
+    -moz-transform: translatey(-10px);
+    -o-transform: translatey(-10px);
+    transform: translatey(-10px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translatey(0);
+    -moz-transform: translatey(0);
+    -o-transform: translatey(0);
+    transform: translatey(0);
+  }
+}
+@-moz-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translatey(-10px);
+    -moz-transform: translatey(-10px);
+    -o-transform: translatey(-10px);
+    transform: translatey(-10px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translatey(0);
+    -moz-transform: translatey(0);
+    -o-transform: translatey(0);
+    transform: translatey(0);
+  }
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translatey(-10px);
+    -moz-transform: translatey(-10px);
+    -o-transform: translatey(-10px);
+    transform: translatey(-10px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translatey(0);
+    -moz-transform: translatey(0);
+    -o-transform: translatey(0);
+    transform: translatey(0);
+  }
+}
+.in-down {
+  -webkit-animation-name: fadeInDown;
+  -moz-animation-name: fadeInDown;
+  -o-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.badge {
+  margin-top: 5px;
+  position: relative;
+  margin-left: 5.5rem;
+  align-items: center;
+  width: 80px;
+  background-color: #008b8b;
+  padding: 2%;
+}
+
+.time {
+  margin-top: 3px;
+  color: #6c757d;
+  font-size: 12px;
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+  color: #6084a4;
+  line-height: 1.9;
+ margin-bottom: 0 !important;
+  text-align: center;
+  color: #FF0000;
+  
+  font-size:30px;
+}
+
+.card {
+  height: 22rem;
+  width: 17rem;
+  box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: none;
+  margin: 15px 20px;
+}
+
+#recent .card-title {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 3px;
+  
+}
+#upcoming .card-title {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 3px;
+  height: 15% !important;
+  
+}
+
+.event-link {
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 7%;
+  
+  color: rgb(26, 115, 232);
+}
+
+.card-img-top {
+  margin-top: 1%;
+  border-radius: 8px;
+  height: 11rem;
+  width: 85%;
+  align-self: center;
+}
+
+@media (max-width: 900px) {
+  .outer-section {
+    margin-left: 11%;
+    margin-right: 5%;
+  }
+}

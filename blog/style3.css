@@ -1,0 +1,151 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+#team {
+  /* background: rgb(238, 234, 234) !important; */
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.section-title {
+  text-align: center;
+  color: black;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  padding-top: 50px;
+  font-weight: bolder;
+  font-size: 50px;
+  position: relative;
+  text-shadow: 2px 1px rgb(77, 74, 74);
+}
+.color-white {
+  color: white;
+}
+.flip-box {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.flip-box-front,
+.flip-box-back {
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  min-height: 380px;
+  transition: transform 1s cubic-bezier(0.4, 0.2, 0.2, 1);
+  backface-visibility: hidden;
+  box-shadow: 5px 5px 4px grey;
+}
+
+.flip-box-front {
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-front {
+  transform: rotateY(-180deg);
+  transform-style: preserve-3d;
+}
+
+.flip-box-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-back {
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+}
+
+.flip-box .inner {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 60px;
+  outline: 1px solid transparent;
+  perspective: inherit;
+  padding-top: 150px;
+  z-index: 2;
+  transform: translateY(-50%) translateZ(60px) scale(0.94);
+  top: 50%;
+}
+
+.flip-box-header {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 1px solid transparent;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 1px 1px rgb(50, 51, 50);
+  /* margin-top: 20px; */
+  /* padding-top: 200px; */
+}
+
+.flip-box p {
+  font-size: 15px;
+  margin-top: 50px;
+  line-height: 1.5rem;
+  text-shadow: 1px 1px rgb(66, 67, 66);
+}
+
+.flip-box-img {
+  margin-top: 10 px;
+  position: relative;
+  float: right;
+  top: 25px;
+  left: 40px;
+  padding-left: 70px;
+}
+
+.inner .content {
+  margin: 10px 0px 10px 0px;
+  padding: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+.inner a {
+  color: white;
+  text-shadow: 1px 1px rgb(66, 67, 66);
+}
+.inner img {
+  size: 1px;
+}
+
+.content p {
+  text-align: center;
+  justify-content: center;
+  top: 5px;
+  text-shadow: 1px 1px rgb(66, 67, 66);
+}
+
+.flip-box-button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  /* float: right; */
+  padding: 15px 20px;
+  margin-left: 0px;
+  text-transform: uppercase;
+}
+
+@media(max-width: 900px)
+{
+  #team{
+    margin-left: 10%;
+  }
+  }
+  
