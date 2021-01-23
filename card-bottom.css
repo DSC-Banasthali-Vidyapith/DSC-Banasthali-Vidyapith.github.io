@@ -1,0 +1,15 @@
+.cutter{
+clip-path: polygon(0 0,100% 0,100% 85%,0 100%);
+}
+.card{
+min-height: 80%;    
+margin-top: 10%;
+margin-bottom:5%;
+}
+i{
+  
+top:15px;
+}
+.card-body:hover{
+    cursor: pointer;
+}

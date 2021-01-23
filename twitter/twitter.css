@@ -1,0 +1,214 @@
+.twitter-timeline {
+    width: 100%;
+    height: auto;
+  }
+  .timeline-Tweet{
+      padding:20px !important;
+  }
+  .NaturalImage-image {
+    max-width: 90%;
+    border-radius: 10px;
+    line-height: 0;
+    height: auto;
+}
+.panel{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top:20px;
+}
+.head-text1 {
+    position: relative;
+   
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+}
+.bar{
+  height: 5px;
+  width: 220px;
+  background:#b6cffc;
+  
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 30px;
+}
+
+.bar::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -2.7px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background:#4284f7;
+  animation: animate 3s linear infinite; 
+}
+
+
+
+@keyframes animate { 
+  0% { 
+      left: 0; 
+  } 
+
+  100% { 
+      left: 100%; 
+  } 
+}
+
+/*sidebar starts*/
+.fl-fl {
+    text-align: right;
+    background: #000000;
+    box-shadow: 1px 1px #888888;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 4px;
+    width: 200px;
+    position: fixed;
+    left: -160px;
+    z-index: 1000;
+    border-radius:0px 10px 10px 0px;
+    font: normal normal 10px Arial;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+  }
+  
+  .fa {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 0;
+    width: 40px;
+    margin-right: 6px;
+  }
+  
+  .fl-fl:hover {
+    left: 0;
+  }
+  
+  .fl-fl a {
+    color: #fff !important;
+    text-decoration: none;
+    text-align: center;
+    line-height: 43px!important;
+    vertical-align: top!important;
+  }
+  .float-le { 
+    top: 160px;
+  }
+  
+  .float-ig {
+    top: 215px;
+  }
+  
+  .float-tw {
+    top: 270px;
+  }
+  
+  .float-yt {
+    top: 325px;
+  }
+  
+  .float-lk {
+    top: 380px;
+  }
+  
+  .float-gh {
+    top: 435px;
+  }
+  
+  .float-ma{
+    top: 490px;
+  }
+  
+  /* Floating Social Media Bar Style Ends Here */
+  /*colors and styles*/
+   #github{
+     background-color:#211F1F;
+   }
+   #twitter{
+     background-color:  #00acee;
+     box-shadow: 1px 1px #009AD5;
+   }
+   #mail{
+    background-color: #DB4437;
+    box-shadow: 1px 1px #D33426;
+   }
+  
+   #events{
+    background-color: #FFA240;
+    box-shadow: 1px 1px #FF9627;
+   }
+   
+   #instagram{
+     background: linear-gradient(45deg,#405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D);
+     box-shadow: 1px 1px #D81F5E;
+     
+   }
+   #linkedin{
+    background-color: #0e76a8;
+    box-shadow: 1px 1px #0C6590;
+   }
+  
+   #youtube{
+     background-color:#FF0000;
+     box-shadow: 1px 1px #FF1A1A;
+   }
+   /*sidebar ends*/
+
+   body {
+    /* Location of the image */
+    background-image: url(bg.gif);
+    
+    /* Image is centered vertically and horizontally at all times */
+    background-position: center center;
+    
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
+    
+    /* Makes the image fixed in the viewport so that it doesn't move when 
+       the content height is greater than the image height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: cover;
+    
+    /* Pick a solid background color that will be displayed while the background image is loading */
+    background-color:#464646;
+    
+    /* SHORTHAND CSS NOTATION
+     * background: url(background-photo.jpg) center center cover no-repeat fixed;
+     */
+  }
+  
+  @media only screen and (max-width: 1124px) {
+    body {
+      /* The file size of this background image is 93% smaller
+       * to improve page load speed on mobile internet connections */
+      background-image: url(bg.gif);
+      background-position: bottom left;
+      
+    }
+    header nav a{
+      margin-top: 2rem !important;
+    }
+      nav ul li{
+        margin-top: 2rem !important;
+      }
+      nav ul li a{
+        font-size: 1.5rem !important;
+      }
+    
+    
+    .block2 h5{
+      font-family: 'Roboto',sans-serif;
+    }
+      
+    
+    }
+
+
