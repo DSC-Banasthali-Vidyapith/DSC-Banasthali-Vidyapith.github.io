@@ -14,67 +14,12 @@ This project uses HTML, CSS and Javascript with Bootstrap support.
 ```
  HomePage
       ├───About Us
-      │   └───aboutUs.html
-      │   └───AboutUs.css
-      │   └───AboutUs.js
-      │   └───navbar_new.html
-      │   └───navNew.css
-      │   └───navNew.js
-      ├───Events
-      │   └───events.html
-      │   └───events.css
-      │   └───index1.js
-      │   └───index2.js
-      │   └───navNew.css
-      │   └───navNew.js
-      │   └───pagination.js
-      │   └───search.js
-      │   └───sidebar.css
-      │   └───images
       ├───Blog
-      │   └───blog.html
-      │   └───blog.css
-      │   └───nav.css
-      │   └───nav.js
-      │   └───sidebar.css
-      │   └───style3.css
-      │   └───images
       ├───Teams
-      │   └───teams.html
-      │   └───teams.css
-      │   └───navNew.css
-      │   └───navNew.js
-      │   └───sidebar.css
-      │   ├───assets
-      │   │   └───images
-      │   └───img
       ├───Twitter
-      │   └───twitter.html
-      │   └───twitter.css
-      │   └───navNew.css
-      │   └───navNew.js
-      │   ├───assets
-      │   │   └───images
-      │   └───img
       ├───FAQ
-      │   └───faq.html
-      │   └───faq.js
-      │   └───faq.css
-      │   └───navNew.css
-      │   └───Navnew.js
-      │   ├───img
-      │   └───teams
-      │       └───assets
-      │           └───images
       └───Contact Us
-          └───contactus.html
-          └───contactus.css
-          └───contactus.js
-          └───navNew.css
-          └───navNew.js
-          └───assets
-              └───images
-     
+         
 ```
 
 <!-- STRUCTURE -->
@@ -148,5 +93,5 @@ yarn start
     <img align="left" alt="vanshikaaaaa_ | Instagram" width="24px" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Instagram.svg" />
   </a><a href="https://medium.com/@vanshikagarg17" target="blank"><img align="left" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="@vanshikagarg17" height="25" width="25" /></a> 
 
-
+<br>
 ###### Built with ❤️ by DSC Banasthali Vidyapith
