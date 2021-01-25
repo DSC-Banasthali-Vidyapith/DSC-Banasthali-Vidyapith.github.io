@@ -27,7 +27,7 @@ header{
 	height: 75px;
 	font-weight: 600;
 	z-index: 100;
-	background-color: white;
+	
 
 }
 .container-fluid{
@@ -212,7 +212,7 @@ nav ul li a:hover::after{
 		flex-direction: column;
 		justify-content: space-evenly;
 		align-items: center;
-		height: 100vh;
+		
 		text-align: center;
 		padding-left: 70px;
 		
@@ -223,10 +223,11 @@ nav ul li a:hover::after{
 	}
 	nav ul{
 		flex-direction: column;
+		padding-left: 0 !important;
 	}
 
 	nav ul li{
-		margin-top: 5rem;
+		margin-top: 4rem;
 	}
 
 	nav ul li a{

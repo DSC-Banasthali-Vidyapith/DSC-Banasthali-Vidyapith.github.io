@@ -8,7 +8,15 @@
   --gray: #818C96;
   --white: #FFF;
 }
+@media(max-width:900px){
+  .card-cardtitle{
+    font-size: 0.8rem;
 
+  }
+  .general-container{
+    width: 80%;
+  }
+}
 
 
 
@@ -16,8 +24,8 @@
   display: flex;
   height: 30rem;
   margin: 0 auto;
-  max-width: 100%;
-  width: 70rem;
+  width: 70%;
+  
 
 
 }
@@ -27,9 +35,7 @@
 }
 
 .content {
-  background: var(--white)
-  url('https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8dGVhbXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')
-  100% / cover no-repeat;
+  background-color:#fff;
   border-radius: 3rem;
   cursor: pointer;
   flex: 1;
@@ -57,23 +63,30 @@
   position: absolute;
   width: 2.5rem;
 }
-
+.content:nth-of-type(1) {
+  background-image: url("https://images.unsplash.com/photo-1519074002996-a69e7ac46a42?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8dGVhbXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-position: center center;
+  background-repeat: no-repeat;
+  
+  background-size:cover;
+}
 .content:nth-of-type(2) {
-  background-image: url('https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8YW5kcm9pZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-image: url("events/images/Copy\ of\ Solution_Challange_2021_Lockup.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  
+  background-size: contain;
 }
 
 .content:nth-of-type(3) {
-  background-image: url('https://images.unsplash.com/photo-1528819622765-d6bcf132f793?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Y29tcGV0aXRpb258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-image: url("assets/images/WhatsApp Image 2021-01-24 at 20.11.39.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  
+  background-size: cover;
 }
 
-.content:nth-of-type(4) {
-  background-image: url('https://images.unsplash.com/photo-1483663167873-0cfcc893b78c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2096&q=80');
-}
 
-.content:nth-of-type(5) {
-  background-image: url('https://images.unsplash.com/photo-1475116127127-e3ce09ee84e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
-  margin-right: 0;
-}
 
 .content:nth-of-type(2) .icon {
   color: var(--dark-gray);

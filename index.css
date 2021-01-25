@@ -57,6 +57,9 @@ p b{
   nav ul li a{
     font-size: 1.3rem !important;
   }
+  .last-title{
+    margin:0 12% !important;
+  }
   
 }
 
