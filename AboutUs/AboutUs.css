@@ -132,16 +132,16 @@ body {
   margin-left:50px;
 }
 
-.bar{
-  height: 4px;
-  width: 85px;
-  background: #1f45fc;
-  margin-top: 3px;
-  margin-left: 139px;
-  margin-bottom: 10px;
-  position: relative;
-  border-radius: 5px;
-  overflow: hidden;
+.bar {
+    height: 4px;
+    background: #4285F4;
+    margin-top: 3px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+   
 }
 
 .bar::before {
