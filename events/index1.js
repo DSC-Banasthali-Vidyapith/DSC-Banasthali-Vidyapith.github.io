@@ -2,29 +2,21 @@
 
 
 const data = [
-    {
-        id:0,
-        pic: "images/upcoming1.png",
-        time:"Tuesday, 26 January 3:00 pm",
-        title:"DSC DRUM ROLLS - Orientation Session",
-        
-        link:"https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-dsc-drum-rolls-orientation-session/#/"
     
-    },
     {
       id:0,
       pic: "images/Copy of DSC-Website-EventThumbnail.png",
       time:"Thursday, 28 January 6:30 pm",
       title:"DSC Solution Challenge 2021 Kickstart",
       
-      link:"https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-dsc-drum-rolls-orientation-session/#/"
+      link:"https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-solution-challenge-2021-kickstart-your-journey/#/"
   
   },
   {
     id:0,
-    pic: "images/LinkedIn.jpg",
+    pic: "../assets/images/final.jpeg",
     time:"Saturday, 30 January 6:00 pm",
-    title:"LinkedIn Hacks",
+    title:"Skill it up!",
     
     link:"https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-dsc-drum-rolls-orientation-session/#/"
 

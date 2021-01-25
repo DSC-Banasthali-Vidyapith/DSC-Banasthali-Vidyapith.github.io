@@ -1,0 +1,36 @@
+1) Responsibilities of network layer are as follows: 
+1. The main role of the network layer is to move the packets from sending host to the receiving host.
+2. It handles the service requests from the transport layer and further forwards the service request to the data link layer. 
+3. The network layer translates the logical addresses into physical addresses 
+4. It determines the route from the source to the destination and also manages the traffic problems such as switching, routing and controls the congestion of data packets.
+
+2)The Data Link Layer checks for errors when a packet moves from one machine to the next. Here, a machine can be a router, a packet switch or an end host(computer, phone, tablet) itself. Whereas, the transport layer only checks for errors between the end hosts. Even if no errors are introduced when a segment is moving over a link, it's possible for errors to be introduced when a segment is stored in a router's memory(for queuing). The data link layer's error checking fails in this scenario. There is no guarantee that all the links between source and destination provide error checking. One of the links may be using a link layer protocol which doesn't provide error checking. 
+
+3)User Datagram Protocol (UDP), Internet Protocol (IP), and Internet Control Message Protocol (ICMP) are examples of connectionless service. So, stuff like mails, voice packets, text messages are sent  by this type of service.
+
+4)Two address required are: 
+1. MAC address 
+2. IP address
+
+5)A port number is a 16-bit unsigned integer, thus ranging from 0 to 65535. For TCP, port number 0 is reserved and cannot be used, while for UDP, the source port is optional and a value of zero means no port.
+A port number is part of the addressing information used to identify the senders and receivers of messages. Port numbers are most commonly used with TCP/IP connections.  
+
+6)Data Link Layer is responsible for Error correction and detection.
+
+7)Protocol Data Unit is called as PDU. The term PDU is used to refer to the packets in different layers of the OSI model. Thus PDU gives an abstract idea of the data packets. The PDU has a different meaning in different layers still we can use it as a common term. 
+1. Packets: The PDUs of Network Layer are callled Packets. 
+2. Frames: The PDUs of Transport Layer are called Frames. 
+3. Segments: The PDUs of Data Link Layer are called Segments.
+
+8)Header contains the source and the destination addresses of the frame and the control bytes and Trailer contains the error detection and error correction bits. Now, Data Link Layer is mainly responsible for the unique identification of each device that resides on a local network and for error free connection of data frames. Therefore, only this layer has header and trailer.
+
+9)Bit synchronization technique is used to make sure that the signals sent from one host of the communication can be rightly decoded by the receiver.
+
+10)Presentation layer and session layer is merged with Application layer in TCP/IP protocal suite as dking so provides the following advantages: 
+1. The single-layer will be able to provide all the functionalities of session, application and presentation layers.
+2. The higher number of bandwidth can be achieved as the layers are minimized in the TCP/ IP protocol.
+3. It reduces the overhead of traversing each layer.
+
+11)UDP has very little features outside of its ability to multiplex thousands of application users onto a single IP address. Its a really simple protocol compared with TCP and compared with IP. Most TCP/IP applications use TCP—that's why we call the protocol suite TCP/IP and not UDP/IP
+
+12)NVT is an acronym for Network Virtual Terminal. The NVT protocol deals with data presentation, i.e., it provides answers to questions such as into which byte should the letter A be transformed in order to be interpreted as A again at the other end of the network connection.

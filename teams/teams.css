@@ -41,12 +41,16 @@ body{
     width:150%;
 }
 @media screen and (max-width: 800px) {
+    
   #vid {
-    margin-left: 10%;
-    margin-right: 1;
+      margin-left:10% !important;
+    margin-right:10%;
     margin-top: 5%;
     margin-bottom: 10%;
-    width:150%;
+    width:70% !important;
+  }
+  main{
+      margin:0 12% !important;
   }
 }
 .text {

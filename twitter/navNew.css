@@ -217,15 +217,17 @@ nav ul li a:hover::after{
 	}
 	nav ul{
 		flex-direction: column;
+		padding-left: 0 !important;
 	}
 
 	nav ul li{
 		margin-top: 5rem;
+		padding-top: 2%;
 	}
 
 	nav ul li a{
 		margin: 0 0.8rem;
-		font-size: 2rem;
+		font-size: 1.3rem !important;
 	}
 	header nav a{
 		margin-top: 32rem;

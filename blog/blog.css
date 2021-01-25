@@ -27,7 +27,7 @@ body{
 .subheading{
     color: rgb(64, 64, 64);
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.0625rem;
+    font-size: 2rem;
     line-height: 1.55em;
     margin-top: 1rem;
 }
@@ -155,7 +155,19 @@ body{
 @media(max-width: 900px)
 {
   .outer-section{
-    margin-left: 14%;
+    margin-left: 12%;
+}
+.subheading{
+  
+    font-size: 1.0625rem;
+}
+body{
+    background-image: url(bg.gif);
+    font-family: 'Open Sans', sans-serif;
+    background-position: center;
+   background-repeat: no-repeat;
+   
+    background-size: cover;
 }
   }
   

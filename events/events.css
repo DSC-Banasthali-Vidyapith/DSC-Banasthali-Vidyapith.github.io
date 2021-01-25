@@ -188,9 +188,10 @@ body {
 }
 
 #recent .card-title {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: center;
   margin-top: 3px;
+  height: 8% !important;
   
 }
 #upcoming .card-title {

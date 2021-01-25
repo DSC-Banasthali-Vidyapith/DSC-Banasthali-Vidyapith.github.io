@@ -2,7 +2,16 @@
 
 
 const dat = [
-    {
+  {
+    id:0,
+    pic: "images/upcoming1.png",
+    time:"Tuesday, 26 January 3:00 pm",
+    title:"DSC DRUM ROLLS - Orientation Session",
+    
+    link:"https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-dsc-drum-rolls-orientation-session/#/"
+
+},
+  {
         id:0,
         pic: "images/upcoming.jpg",
         title:"Let's App It",
@@ -17,15 +26,7 @@ const dat = [
       venue:"Youtube",
       link:"https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-lets-android/"
   
-  },
-  {
-    id:2,
-    pic: "images/upcoming.jpg",
-    title:"Android 101",
-    venue:"Youtube",
-    link:"https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-android-101/"
-
-}
+  }
 ];
 
 

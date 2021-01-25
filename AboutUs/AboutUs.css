@@ -181,9 +181,8 @@ h2 {
 
 }
 .centered-fluid {
-  margin-left: 45px;
-    /* margin: 0 auto;
-    padding: 0 1em; */
+  margin-left: 35px;
+  padding: 0 5%;
 }
 .container-fluid{
   margin-left: 45px;
