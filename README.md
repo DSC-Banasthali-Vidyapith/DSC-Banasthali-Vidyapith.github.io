@@ -5,7 +5,7 @@ Functional website created by team members of DSC Banasthali Vidyapith with a mo
 
 - [Structure](#structure)
 - [Setup](#setup)
-- [Contributors](#Contributors)
+- [Contributors](#contributors)
 - [Social Handles](#social-handles)
 
 ## Structure
@@ -28,17 +28,17 @@ This project uses HTML, CSS and Javascript with Bootstrap support.
 
 ## Constants
 
-This project uses 'Roboto' as it's primary font, with weights of 300, 400, 500 and 700. 
+This project uses 'Open Sans' as it's primary font, with weights of 300, 400, 500 and 700. 
 
 ```
-font-size: 16px;
+--font-size: 2rem;
 --bg-primary: #ffffff;
 --bg-secondary: #f5f5f5;
---text-primary: #000000;
---text-secondary: #202124;
---btn-primary: #0005df;
---btn-secondary: #ffffff;
---sidebar-width: 5rem;
+--text-primary: #5a5757;
+--text-secondary: #4285F4;
+--btn-primary: #ffffff;
+--btn-secondary: #4285F4;
+--sidebar-width: 40px;
 ```
 
 <!-- SET UP -->
