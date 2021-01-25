@@ -101,4 +101,4 @@ yarn start
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Vanshikagarg17)
 
-# Built with ❤️ by DSC Banasthali Vidyapith
+### Built with ❤️ by DSC Banasthali Vidyapith
