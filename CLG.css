@@ -121,7 +121,7 @@
  
   
   margin: 10% auto;
-padding: 5% 5%;
+padding: 3.5% 3.5%;
 }
  #description-para{
   color:white;
@@ -132,7 +132,7 @@ padding: 5% 5%;
  
   object-position: center;
   margin: 10% auto;
-padding: 5% 5%;
+padding: 3.5% 3.5%;
  
 }
 #bgcolor1 .card-content{
@@ -309,7 +309,7 @@ padding: 5% 5%;
       
        
        
-     padding: 1% 1%;
+     padding: 0.5% 0.5%;
      }
      #card-sec .container .row{
        margin-top: 0;
