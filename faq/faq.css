@@ -10,16 +10,7 @@
   
 }
 
-body {
-  color: rgb(90, 87, 87);
-  
-  font-family: var(--bs-font-sans-serif);
- 
-  
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-}
+
 
 
 @media(max-width:1124px){
@@ -207,4 +198,13 @@ h1 {
 }
 
 
+@media(max-width: 900px){
+  body{
+  
+  background-position: center center;
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  }
 
+}
