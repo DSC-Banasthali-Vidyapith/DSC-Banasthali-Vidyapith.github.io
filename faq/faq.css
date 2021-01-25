@@ -167,7 +167,7 @@ h1 {
   position: relative;
   cursor: pointer;
   
-  font-size: large;
+  
 }
 
 .accordion-item-header::after {
@@ -194,7 +194,7 @@ h1 {
   border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
   text-align: left;
   
-  font-size: medium;
+  
 }
 
 
