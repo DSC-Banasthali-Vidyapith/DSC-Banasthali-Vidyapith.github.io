@@ -166,7 +166,7 @@ h1 {
   align-items: center;
   position: relative;
   cursor: pointer;
-  
+  font-size:15px;
   
 }
 
@@ -193,7 +193,7 @@ h1 {
   border-top: 1px solid;
   border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
   text-align: left;
-  
+  font-size:15px;
   
 }
 
