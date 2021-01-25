@@ -66,20 +66,22 @@ yarn install
 ```bash
 yarn start
 ```
-## Contributors
-<table>
-    <tr>
-        <td><img height="60" width="60" alt="@Vanshikagarg17" src="https://avatars.githubusercontent.com/u/51471702?s=60&amp;u=c3ae1a80c62a5552d41906f7acbc2cd0abf01c08&amp;v=4" class=" avatar-user"></td>
-        <td><img height="60" width="60" alt="@Ananyaas" src="https://avatars.githubusercontent.com/u/45946392?s=60&amp;u=1bcd1ea8a3c9c9ee4a3120db0fbff3dd3a3f900f&amp;v=4" class=" avatar-user"></td>
-        <td><img height="60" width="60" alt="@Shriyanshidixit" src="https://avatars.githubusercontent.com/u/61283887?s=60&amp;u=cd795c302b53d1b427811e02dd96dccd155c4827&amp;v=4" class=" avatar-user"></td>
-      <td><img height="60" width="60" alt="@sakshigoel19" src="https://avatars.githubusercontent.com/u/61665348?s=60&amp;v=4" class=" avatar-user"></td>
-      <td><img height="60" width="60" alt="@v-vanisha" src="https://avatars.githubusercontent.com/u/68401881?s=60&amp;u=3eca1b119f89a2f712cbe478c4ce1e213346c309&amp;v=4" class=" avatar-user"></td>
-      <td><img height="60" width="60" alt="@nishtha-01" src="https://avatars.githubusercontent.com/u/62608652?s=60&amp;v=4" class=" avatar-user"></td>
-      <td><img height="60" width="60" alt="@ishi0301" src="https://avatars.githubusercontent.com/u/53488394?s=60&amp;u=209a47a9d7c6eb854247be9d6788c8461c87c00c&amp;v=4" class=" avatar-user"></td>
-      <td><img height="60" width="60" alt="@anishimishra" src="https://avatars.githubusercontent.com/u/55035814?s=60&amp;u=390c2b6b4aecf21522a421b266088d8034ee532e&amp;v=4" class=" avatar-user"></td>
-      <td><img height="60" width="60" alt="@Aakansha99" src="https://avatars.githubusercontent.com/u/46489702?s=60&amp;u=81c81f1b556d173f1230e715f3ec81bf0907b561&amp;v=4" class=" avatar-user"></td>
-    </tr>
-</table>
+
+### Contributors
+
+<p align="left">
+<a href="https://github.com/Vanshikagarg17"><img width="72px" src="https://avatars.githubusercontent.com/u/51471702?s=400&u=c3ae1a80c62a5552d41906f7acbc2cd0abf01c08&v=4"></a>
+<img width="72px" src="https://avatars.githubusercontent.com/u/45946392?s=60&amp;u=1bcd1ea8a3c9c9ee4a3120db0fbff3dd3a3f900f&amp;v=4">
+<img width="72px" src="https://avatars.githubusercontent.com/u/61283887?s=60&amp;u=cd795c302b53d1b427811e02dd96dccd155c4827&amp;v=4">
+<img width="72px" src="https://avatars.githubusercontent.com/u/61665348?s=60&amp;v=4">
+<img width="72px" src="https://avatars.githubusercontent.com/u/68401881?s=60&amp;u=3eca1b119f89a2f712cbe478c4ce1e213346c309&amp;v=4">
+<img width="72px" src="https://avatars.githubusercontent.com/u/62608652?s=60&amp;v=4">
+<img width="72px" src="https://avatars.githubusercontent.com/u/53488394?s=60&amp;u=209a47a9d7c6eb854247be9d6788c8461c87c00c&amp;v=4">
+<img width="72px" src="https://avatars.githubusercontent.com/u/55035814?s=60&amp;u=390c2b6b4aecf21522a421b266088d8034ee532e&amp;v=4">
+<img width="72px" src="https://avatars.githubusercontent.com/u/46489702?s=60&amp;u=81c81f1b556d173f1230e715f3ec81bf0907b561&amp;v=4">
+</p>
+
+
 
 ## Social Handles
 
@@ -94,4 +96,8 @@ yarn start
   </a><a href="https://medium.com/@vanshikagarg17" target="blank"><img align="left" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="@vanshikagarg17" height="25" width="25" /></a> 
 
 <br>
-###### Built with ❤️ by DSC Banasthali Vidyapith
+
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Vanshikagarg17)
+
+# Built with ❤️ by DSC Banasthali Vidyapith
