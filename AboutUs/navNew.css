@@ -21,7 +21,7 @@ header{
 	height: 75px;
 	font-weight: 600;
 	z-index: 100;
-	background-color: white;
+	
 
 }
 #unique .container-fluid{
@@ -93,6 +93,7 @@ nav{
 nav ul{
 	display: flex;
 	color:rgba(90,87,87,1);
+	
 }
 
 nav ul li{
@@ -131,8 +132,7 @@ nav ul li:nth-child(8){
 }
 
 nav ul li a{
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding: 1rem 0;
 	margin: 0 3rem;
 	position: relative;
 	letter-spacing: 2px;
@@ -205,16 +205,21 @@ nav ul li a:hover::after{
 		flex-direction: column;
 		justify-content: space-evenly;
 		align-items: center;
-		height: 100vh;
+		
 		text-align: center;
 		padding-left: 70px;
 		overflow:scroll;
 	}
+	
 	nav a{
 		margin-left: 30px;
 	}
 	nav ul{
 		flex-direction: column;
+		padding-left: 0;
+	}
+	nav img{
+		padding-top:40px;
 	}
 
 	nav ul li{
