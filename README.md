@@ -1,13 +1,15 @@
-# DSC-Banasthali-Vidyapith.github.io
+# DSC Banasthali Vidyapith
 Functional website created by team members of DSC Banasthali Vidyapith with a motive of providing insights of our technical and non technical updates to developers, innovators and students in order to encourage them to develop and share their skills and build a collaborative tech culture.
 
-## Table of Contents ##
+## Table of Contents
+
 - [Structure](#structure)
 - [Setup](#setup)
-- [Contributors](#contributors)
+- [Contributors](#Contributors)
 - [Social Handles](#social-handles)
 
 ## Structure
+
 This project uses HTML, CSS and Javascript with Bootstrap support.
 <!-- PAGES -->
 
@@ -66,6 +68,9 @@ yarn install
 ```bash
 yarn start
 ```
+
+
+<!-- CONTRIBUTORS -->
 
 ### Contributors
 
