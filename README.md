@@ -93,10 +93,11 @@ yarn start
 </a> 
   <a href="https://www.instagram.com/dsc_banasthalividyapith/">
     <img align="left" alt="vanshikaaaaa_ | Instagram" width="24px" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Instagram.svg" />
-  </a><a href="https://medium.com/@vanshikagarg17" target="blank"><img align="left" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="@vanshikagarg17" height="25" width="25" /></a> 
+  </a><a href="https://dscbanasthalividyapith.medium.com/" target="blank"><img align="left" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="@vanshikagarg17" height="25" width="25" /></a> 
 
 <br>
-
+<br>
+<br>
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Vanshikagarg17)
 
