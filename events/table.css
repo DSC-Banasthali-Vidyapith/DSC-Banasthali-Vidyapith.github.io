@@ -1,0 +1,142 @@
+.table-section {
+  margin-top: 45px;
+  padding-top: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.head1 {
+  color: rgb(26, 115, 232);
+  font-size: 3rem;
+}
+.head2 {
+  font-size: 20px;
+}
+
+.searchbar:hover {
+  box-shadow: 1px 1px 1px 1px rgba(150, 149, 149, 0.35);
+}
+.h {
+  max-width: 80%;
+  height: auto;
+  border-radius: 5%;
+}
+
+#myInput {
+  background-image: url("https://icons-for-free.com/iconfiles/png/512/search+24px-131985193505071219.png"); /* Add a search icon to input */
+  background-position: 10px 11px; /* Position the search icon */
+  background-repeat: no-repeat;
+  background-size: 25px; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 15px; /* Increase font-size */
+  padding: 10px 20px 10px 40px; /* Add some padding */
+  border: 1px solid #ddd;
+  border-radius: 20px; /* Add a grey border */
+  margin-bottom: 15px;
+
+  top: 10px;
+  overflow: hidden;
+  outline: none; /* Add some space below the input */
+}
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  max-width: 100% !important;
+  overflow-x: auto;
+  display: block;
+  width: fit-content;
+  margin-right: 100px;
+  /* Full-width */
+  /* font-family: "Google sans"; */
+  top: 3%;
+  box-shadow: 1px 1px 1px 1px #b8b7b7; /* Add a grey border */
+  font-size: 15px;
+  table-layout: fixed !important;
+  background-color: rgb(255, 255, 255); /* Increase font-size */
+}
+
+#myTable th {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.6);
+
+  /* border-radius: 30px; */
+  font-size: 1.2rem;
+  background-color: rgb(232, 230, 230);
+}
+
+.table-sortable .th-sort-asc::after {
+  content: "\2191";
+}
+
+.table-sortable .th-sort-desc::after {
+  content: "\2193";
+}
+
+.table-sortable .th-sort-asc::after,
+.table-sortable .th-sort-desc::after {
+  margin-left: 5px;
+}
+
+.th-sort-asc {
+  background: rgba(150, 149, 149, 0.35);
+}
+.table-sortable .th-sort-desc {
+  background: rgba(106, 105, 105, 0.1);
+}
+
+#myTable td {
+  font-size: 0.9rem;
+  white-space: nowrap;
+  /* max-width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+  height: 48px;
+}
+#myTable th,
+#myTable td {
+  text-align: left; /* Left-align text */
+  padding: 16px; /* Add padding */
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
+}
+#myTable tr.header,
+#myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #c7c5c51c;
+}
+
+@media (max-width: 992px) {
+  .pull-left-sm {
+    float: left !important;
+  }
+}
+@media (max-width: 767px) {
+  .nofloat-xs {
+    float: none !important;
+  }
+}
+@media (max-width: 900px) {
+  .table-section {
+    margin-left: 11%;
+    margin-right: 5%;
+  }
+}
+
+.controls-item {
+  display: inline-block;
+}
+
+.btns {
+  margin: 1px;
+  color: rgba(0, 0, 0, 0.994);
+  background-color: rgb(153, 148, 148);
+  border: none;
+}
+
+.btns:hover {
+  background-color: #b8b7b7;
+  color: black;
+}
