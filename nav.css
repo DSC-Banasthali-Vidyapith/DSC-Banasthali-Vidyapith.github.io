@@ -8,15 +8,6 @@
   --gray: #818C96;
   --white: #FFF;
 }
-@media(max-width:900px){
-  .card-cardtitle{
-    font-size: 0.8rem;
-
-  }
-  .general-container{
-    width: 80%;
-  }
-}
 
 
 
@@ -104,15 +95,16 @@
   color: var(--golden);
 }
 
-.card-cardtitle {
-  bottom: 1.2rem;
-  color: var(--white);
+.card-cardtitle a{
+  bottom: 1.5rem;
+  color: #000;
   display: flex;
   flex-direction: column;
-  font-size: 1.5rem;
-  left: 4.5rem;
+  font-size: 1.3rem;
+  left: 1.5rem;
   line-height: 1.1;
   opacity: 1;
+  font-weight: bolder;
   position: absolute;
   text-shadow: 0.05rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
   transform: translateX(2rem);
