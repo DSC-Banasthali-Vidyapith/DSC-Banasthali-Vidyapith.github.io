@@ -2,6 +2,15 @@
 
 
 const dat = [
+    {
+    id: 0,
+    pic: "images/Copy of DSC-Website-EventThumbnail.png",
+    time: "Thursday, 28 January 6:30 pm",
+    title: "DSC Solution Challenge 2021 Kickstart",
+
+    link:
+      "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-solution-challenge-2021-kickstart-your-journey/#/",
+  },
   {
     id:0,
     pic: "images/upcoming1.png",
@@ -18,15 +27,8 @@ const dat = [
         venue:"Youtube",
         link:"https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-lets-app-it/"
     
-    },
-    {
-      id:1,
-      pic: "images/upcoming.jpg",
-      title:"Let's Android",
-      venue:"Youtube",
-      link:"https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-lets-android/"
-  
-  }
+    }
+    
 ];
 
 
