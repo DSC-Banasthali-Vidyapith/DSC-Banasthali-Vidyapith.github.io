@@ -62,19 +62,19 @@
   background-size:cover;
 }
 .content:nth-of-type(2) {
-  background-image: url("events/images/Copy\ of\ Solution_Challange_2021_Lockup.png");
+  background-image: url("assets/images/WhatsApp Image 2021-01-24 at 20.11.39.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
-  
+  background-color: rgb(26, 115, 232);
   background-size: contain;
 }
 
 .content:nth-of-type(3) {
-  background-image: url("assets/images/WhatsApp Image 2021-01-24 at 20.11.39.jpeg");
+  background-image: url("https://ps.w.org/quick-coming-soon/assets/icon-256x256.gif?rev=2286699");
   background-position: center center;
   background-repeat: no-repeat;
-  
-  background-size: cover;
+  background-color: rgb(90,87,87);
+  background-size: contain;
 }
 
 
