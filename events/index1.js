@@ -1,15 +1,7 @@
 // Array containing details of upcoming events
 
 const data = [
-  {
-    id: 0,
-    pic: "images/Copy of DSC-Website-EventThumbnail.png",
-    time: "Thursday, 28 January 6:30 pm",
-    title: "DSC Solution Challenge 2021 Kickstart",
 
-    link:
-      "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-solution-challenge-2021-kickstart-your-journey/#/",
-  },
   {
     id: 0,
     pic: "../assets/images/final.jpeg",
