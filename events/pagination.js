@@ -1,11 +1,40 @@
 var tableData = [
   {
+    event_name: "Skill It Up!",
+    date: "30-01-2021",
+    venue: "Youtube",
+    see_more:
+      "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-skill-it-up/",
+  },
+  {
+    event_name: "Solution Challenge 2021 - Kickstart Your Journey!",
+    date: "28-01-2021",
+    venue: "Youtube",
+    see_more:
+      "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-solution-challenge-2021-kickstart-your-journey/",
+  },
+  {
     event_name: "DSC DRUM ROLLS-Orientation Session",
     date: "26-01-2021",
     venue: "Google Meet",
     see_more:
       "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-dsc-drum-rolls-orientation-session/#/",
   },
+  {
+    event_name: "Let's Open Source",
+    date: "23-01-2021",
+    venue: "Youtube",
+    see_more:
+      "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-lets-open-source/",
+  },
+  {
+    event_name: "Android Development",
+    date: "22-01-2021",
+    venue: "Youtube",
+    see_more:
+      "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-android-development/",
+  },
+
   {
     event_name: "LET'S APP IT",
     date: "19-01-2021",
