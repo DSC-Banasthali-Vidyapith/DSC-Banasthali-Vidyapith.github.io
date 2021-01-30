@@ -4,12 +4,12 @@ const data = [
 
   {
     id: 0,
-    pic: "../assets/images/final.jpeg",
-    time: "Saturday, 30 January 6:00 pm",
-    title: "Skill it up!",
+    pic: "../assets/images/womentech.jpeg",
+    time: "Coming Soon!!",
+    title: "Women In Tech",
 
     link:
-      "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-skill-it-up/#/",
+      "https://dsc.community.dev/banasthali-university/",
   },
 ];
 
