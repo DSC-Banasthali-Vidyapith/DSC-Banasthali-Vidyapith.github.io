@@ -2,32 +2,36 @@
 
 
 const dat = [
+
     {
-    id: 0,
+    id:0,
+    pic: "../assets/images/final.jpeg",
+    title:"Skill It Up!",
+    venue:"Youtube",
+    link:"https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-skill-it-up/",
+    ylink:"https://www.youtube.com/channel/UCfDFc_J9x-yCE2Sr0eOJWuQ"
+
+  },
+    {
+    id: 1,
     pic: "images/Copy of DSC-Website-EventThumbnail.png",
     time: "Thursday, 28 January 6:30 pm",
     title: "DSC Solution Challenge 2021 Kickstart",
 
     link:
       "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-solution-challenge-2021-kickstart-your-journey/#/",
+      ylink:"https://www.youtube.com/watch?v=bsEns6zcXHw&feature=emb_err_woyt"
   },
   {
-    id:0,
+    id:2,
     pic: "images/upcoming1.png",
     time:"Tuesday, 26 January 3:00 pm",
     title:"DSC DRUM ROLLS - Orientation Session",
     
-    link:"https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-dsc-drum-rolls-orientation-session/#/"
+    link:"https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-dsc-drum-rolls-orientation-session/#/",
+    ylink:"https://www.youtube.com/channel/UCfDFc_J9x-yCE2Sr0eOJWuQ"
 
-},
-  {
-        id:0,
-        pic: "images/upcoming.jpg",
-        title:"Let's App It",
-        venue:"Youtube",
-        link:"https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-lets-app-it/"
-    
-    }
+} 
     
 ];
 
@@ -38,7 +42,7 @@ const div = document.createElement('div');
 const h3 = document.createElement('h3');
 const a = document.createElement('a');
 const img = document.createElement('img');
-const p = document.createElement('p');
+const p = document.createElement('a');
 const h4 = document.createElement('h4');
 
 
@@ -66,6 +70,7 @@ h3.setAttribute('class','card-title');
 h3.innerHTML=event.title;
 
 p.setAttribute('class','card-text');
+p.setAttribute('href',event.ylink);
 p.innerHTML='<i class="fab fa-youtube"></i>';
 
 a.setAttribute('class','event-link');
