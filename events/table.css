@@ -43,6 +43,7 @@
   max-width: 100% !important;
   overflow-x: auto;
   display: block;
+  white-space: nowrap;
   width: fit-content;
   margin-right: 100px;
   /* Full-width */
