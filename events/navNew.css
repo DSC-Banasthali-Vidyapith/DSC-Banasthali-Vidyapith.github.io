@@ -171,6 +171,9 @@ nav ul li a:hover::after{
 	.menu-toggle{
 		display: block;
 	}
+	nav ul{
+		padding-left:0;
+	}
 
 	nav{
 		height: 100%;
