@@ -11,6 +11,7 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  overflow-x:hidden;
 }
 
 #dscBanner p {
