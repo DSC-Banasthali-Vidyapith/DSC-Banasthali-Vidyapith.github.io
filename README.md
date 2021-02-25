@@ -1,5 +1,5 @@
 # DSC Banasthali Vidyapith
-Functional website created by team members of DSC Banasthali Vidyapith with a motive of providing insights of our technical and non technical updates to developers, innovators and students in order to encourage them to develop and share their skills and build a collaborative tech culture.
+Functional website created by team members of DSC Banasthali Vidyapith with a motive of providing insights of our technical and non technical updates to developers, innovators and students in order to encourage them to develop and share their skills and build a collaborative tech culture. Visit our website!!
 
 ## Table of Contents
 
