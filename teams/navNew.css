@@ -193,6 +193,7 @@ nav ul li a:hover::after{
 	}
 	nav ul{
 		flex-direction: column;
+		padding-left:0;
 	}
 
 	nav ul li{
