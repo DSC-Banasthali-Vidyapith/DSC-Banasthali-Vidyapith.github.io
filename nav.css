@@ -62,15 +62,15 @@
   background-size:cover;
 }
 .content:nth-of-type(2) {
-  background-image: url("events/images/Copy\ of\ Solution_Challange_2021_Lockup.png");
+  background-image: url("assets/images/Women-2.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
   
-  background-size: contain;
+  background-size: cover;
 }
 
 .content:nth-of-type(3) {
-  background-image: url("assets/images/WhatsApp Image 2021-01-24 at 20.11.39.jpeg");
+  background-image: url("assets/images/Women-4.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   
