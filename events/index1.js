@@ -4,13 +4,32 @@ const data = [
 
   {
     id: 0,
-    pic: "../assets/images/womentech.jpeg",
-    time: "Coming Soon!!",
-    title: "Women In Tech",
+    pic: "../assets/images/node-js_img.png",
+    time: "20 February 2021, 6:00pm",
+    title: "Step into the World of NodeJS",
 
     link:
-      "https://dsc.community.dev/banasthali-university/",
+      "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-step-into-the-world-of-nodejs-dsc-banasthali-vidyapith/#/",
   },
+  {
+    id: 1,
+    pic: "../assets/images/ML_img.jpg",
+    time: "21 February 2021, 6:00pm",
+    title: "Insights into Machine Learning ",
+
+    link:
+      "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-insights-into-machine-learning-dsc-banasthali-vidyapith/#/",
+  },
+  {
+    id: 2,
+    pic: "../assets/images/api_img.jfif",
+    time: "23 February 2021, 6:00pm",
+    title: "Demystifying Google Maps API",
+
+    link:
+      "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-demystifying-google-maps-api-dsc-banasthali-vidyapith/#/",
+  },
+
 ];
 
 // If there are no upcoming events set data = 0
