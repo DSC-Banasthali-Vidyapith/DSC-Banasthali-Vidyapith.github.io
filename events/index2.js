@@ -4,27 +4,27 @@
 const dat = [
 
     {
-        id: 2,
-        pic: "../assets/images/spring-boot.jpg",
-        title: "Building Java Project with Spring Boot",
+        id: 0,
+        pic: "../assets/images/solution_challenge.png",
+        title: "Design Sprint | Session 3",
         venue: "Youtube",
-        link: "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-building-java-project-with-spring-boot/",
-        ylink: "https://www.youtube.com/watch?v=R4KlVtNn7WM"
+        link: "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-design-sprint-session-3/",
+        ylink: "https://www.youtube.com/channel/UCfDFc_J9x-yCE2Sr0eOJWuQ"
 
     },
     {
         id: 1,
-        pic: "../assets/images/ML_img.jpg",
-        title: "Insights into Machine Learning",
-        link: "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-insights-into-machine-learning-dsc-banasthali-vidyapith/",
-        ylink: "https://www.youtube.com/watch?v=mccO1R7jxL8"
+        pic: "../assets/images/solution_challenge.png",
+        title: "Design Sprint | Session 2",
+        link: "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-design-sprint-session-2/",
+        ylink: "https://www.youtube.com/channel/UCfDFc_J9x-yCE2Sr0eOJWuQ"
     },
     {
-        id: 0,
-        pic: "../assets/images/node-js_img.png",
-        title: "Step into the World of NodeJS ",
-        link: "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-step-into-the-world-of-nodejs-dsc-banasthali-vidyapith/",
-        ylink: "https://www.youtube.com/watch?v=N1b_mJufdAk"
+        id: 2,
+        pic: "../assets/images/solution_challenge.png",
+        title: "Design Sprint | Session 1",
+        link: "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-design-sprint-session-1/",
+        ylink: "https://www.youtube.com/channel/UCfDFc_J9x-yCE2Sr0eOJWuQ"
 
     }
 

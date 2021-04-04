@@ -4,22 +4,11 @@ const data = [
 
     {
         id: 0,
-        pic: "../assets/images/industry_img.jpg",
-        time: "06 March 2021, 7:30pm",
-        title: "Industry Experts Panel",
-
-        link: "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-womens-week-2021-industry-experts-panel-day-1/#/",
+        pic: "../assets/images/gsoc.jpg",
+        time: "10 April 2021, 6:00pm",
+        title: "Google Summer of Code 2021",
+        link: "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-google-summer-of-code-2021/",
     },
-    {
-        id: 1,
-        pic: "../assets/images/opportunities_img.jpg",
-        time: "07 March 2021, 4:00pm",
-        title: "Opportunities & Networking",
-
-        link: "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-womens-week-2021-opportunities-networking-day-2/#/",
-    },
-
-
 ];
 
 // If there are no upcoming events set data = 0
