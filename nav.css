@@ -61,10 +61,10 @@
   background-size:cover;
 }
 .content:nth-of-type(2) {
-  background-image: url("assets/images/gsoc.jpg");
+  background-image: url("assets/images/gsoc-1.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .content:nth-of-type(3) {
