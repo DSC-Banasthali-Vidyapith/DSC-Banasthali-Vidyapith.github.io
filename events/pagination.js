@@ -1,4 +1,41 @@
 var tableData = [{
+        event_name: "Design Sprint | Session 3",
+        date: "13-03-2021",
+        venue: "Youtube",
+        see_more: "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-design-sprint-session-3/",
+    },
+    {
+        event_name: "Design Sprint | Session 2",
+        date: "13-03-2021",
+        venue: "Youtube",
+        see_more: "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-design-sprint-session-2/",
+    },
+    {
+        event_name: "Design Sprint | Session 1",
+        date: "13-03-2021",
+        venue: "Youtube",
+        see_more: "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-design-sprint-session-1/",
+    },
+    {
+        event_name: "Women's Week 2021 | Hear from Developer Student Clubs Leads | DAY 3",
+        date: "08-03-2021",
+        venue: "Youtube",
+        see_more: "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-womens-week-2021-hear-from-developer-student-clubs-leads-day-3/",
+    },
+    {
+        event_name: "Women's Week 2021 | Opportunities & Networking | DAY 2",
+        date: "07-03-2021",
+        venue: "Youtube",
+        see_more: "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-womens-week-2021-opportunities-networking-day-2/",
+    },
+    {
+        event_name: "Women's Week 2021 | Industry Experts Panel | DAY 1",
+        date: "06-03-2021",
+        venue: "Youtube",
+        see_more: "https://dsc.community.dev/events/details/developer-student-clubs-banasthali-university-presents-womens-week-2021-industry-experts-panel-day-1/",
+    },
+
+    {
         event_name: "Building Java Project with Spring Boot",
         date: "27-02-2021",
         venue: "Youtube",
