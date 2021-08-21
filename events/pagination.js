@@ -1,4 +1,11 @@
-var tableData = [{
+var tableData = [
+    {
+        event_name: "DSA Series - Conquering Codeplays | Session 1",
+        date: "21-08-2021",
+        venue: "Youtube",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-dsa-series-conquering-codeplays-session-1/",
+    },
+    {
         event_name: "Design Sprint | Session 3",
         date: "13-03-2021",
         venue: "Youtube",
