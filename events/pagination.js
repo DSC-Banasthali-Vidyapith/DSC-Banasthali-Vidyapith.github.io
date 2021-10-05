@@ -1,5 +1,29 @@
 var tableData = [
     {
+        event_name: "GITHUB BOOTCAMP",
+        date: "21-09-2021",
+        venue: "Youtube",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-github-bootcamp/",
+    },
+    {
+        event_name: "Stack The HackWins | Ace your next Hackathon",
+        date: "19-09-2021",
+        venue: "Youtube",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-stack-the-hackwins-ace-your-next-hackathon/",
+    },
+    {
+        event_name: "DSA Series - Conquering Codeplays | Session 4",
+        date: "15-09-2021",
+        venue: "Youtube",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-dsa-series-conquering-codeplays-session-4/",
+    },
+    {
+        event_name: "DSA Series - Conquering Codeplays | Session 3",
+        date: "28-08-2021",
+        venue: "Youtube",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-dsa-series-conquering-codeplays-session-3/",
+    },
+    {
         event_name: "DSA Series - Conquering Codeplays | Session 2",
         date: "26-08-2021",
         venue: "Youtube",
