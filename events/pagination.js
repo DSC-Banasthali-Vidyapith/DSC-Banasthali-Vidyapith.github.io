@@ -1,5 +1,11 @@
 var tableData = [
     {
+        event_name: "Demystifying UI/UX",
+        date: "18-01-2022",
+        venue: "Youtube",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-demystifying-uiux/",
+    },
+    {
         event_name: "Android Study Jams : Session 3 | Android Basics in Kotlin",
         date: "14-12-2021",
         venue: "Google Meet",
