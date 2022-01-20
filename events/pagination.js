@@ -1,4 +1,83 @@
-var tableData = [{
+var tableData = [
+    {
+        event_name: "Demystifying UI/UX",
+        date: "18-01-2022",
+        venue: "Youtube",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-demystifying-uiux/",
+    },
+    {
+        event_name: "Android Study Jams : Session 3 | Android Basics in Kotlin",
+        date: "14-12-2021",
+        venue: "Google Meet",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-android-study-jams-session-3-android-basics-in-kotlin/",
+    },
+    {
+        event_name: "Android Study Jams : Session 2 | Android Basics in Kotlin",
+        date: "07-12-2021",
+        venue: "Google Meet",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-android-study-jams-session-2-android-basics-in-kotlin/",
+    },
+    {
+        event_name: "Android Study Jams : Session 1 | Android Basics in Kotlin",
+        date: "30-11-2021",
+        venue: "Google Meet",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-android-study-jams-session-1-android-basics-in-kotlin/",
+    },
+    {
+        event_name: "Code Kaze",
+        date: "13-11-2021",
+        venue: "Coding Ninjas Competition",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-code-kaze/",
+    },
+    {
+        event_name: "Tech Talk : Generation Google Scholarship 2022",
+        date: "13-11-2021",
+        venue: "Zoom",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-tech-talk-generation-google-scholarship-2022/",
+    },
+    {
+        event_name: "GITHUB BOOTCAMP",
+        date: "21-09-2021",
+        venue: "Youtube",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-github-bootcamp/",
+    },
+    {
+        event_name: "30 Days Of Google Cloud '21",
+        date: "20-09-2021",
+        venue: "Youtube",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-30-days-of-google-cloud-21/",
+    },
+    {
+        event_name: "Stack The HackWins | Ace your next Hackathon",
+        date: "19-09-2021",
+        venue: "Youtube",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-stack-the-hackwins-ace-your-next-hackathon/",
+    },
+    {
+        event_name: "DSA Series - Conquering Codeplays | Session 4",
+        date: "15-09-2021",
+        venue: "Youtube",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-dsa-series-conquering-codeplays-session-4/",
+    },
+    {
+        event_name: "DSA Series - Conquering Codeplays | Session 3",
+        date: "28-08-2021",
+        venue: "Youtube",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-dsa-series-conquering-codeplays-session-3/",
+    },
+    {
+        event_name: "DSA Series - Conquering Codeplays | Session 2",
+        date: "26-08-2021",
+        venue: "Youtube",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-dsa-series-conquering-codeplays-session-2/",
+    },
+    {
+        event_name: "DSA Series - Conquering Codeplays | Session 1",
+        date: "21-08-2021",
+        venue: "Youtube",
+        see_more: "https://gdsc.community.dev/events/details/developer-student-clubs-banasthali-vidyapith-jaipur-presents-dsa-series-conquering-codeplays-session-1/",
+    },
+    {
         event_name: "Design Sprint | Session 3",
         date: "13-03-2021",
         venue: "Youtube",
